@@ -38,6 +38,9 @@ The fixed script from Stage 1 is now an interactive, menu-driven program. It kee
 - **try/except** to catch bad input, both for item details and for the menu choice itself, without crashing
 
 **Run it:**
+```
+python3 pantry_stage2.py
+```
 
 **What it does:**
 - Menu with 6 options: add item, view pantry, remove item, view categories, search by category, exit
