@@ -26,4 +26,27 @@ python3 pantry.py
 
 ---
 
-More stages coming: loops and functions, then object-oriented programming, then real file storage with Pandas, then live recipe suggestions from an API.
+## Stage 2: Programming Fundamentals
+
+The fixed script from Stage 1 is now an interactive, menu-driven program. It keeps running and responding until you choose to exit.
+
+**What's in this stage:**
+- **Functions** for each action (add, view, remove, search), so logic isn't repeated
+- A **while loop** running the main menu so the program keeps asking what to do next
+- **for loops** to walk through the pantry list when printing or searching
+- **if/elif/else** to route the user's menu choice to the right function
+- **try/except** to catch bad input, both for item details and for the menu choice itself, without crashing
+
+**Run it:**
+
+**What it does:**
+- Menu with 6 options: add item, view pantry, remove item, view categories, search by category, exit
+- Add item asks for name, quantity, unit, category, and expiry, and safely handles invalid numeric input
+- Remove item searches the list by name and removes it if found
+- Search by category filters and prints only matching items
+- A non-numeric menu choice shows an error and returns to the menu instead of crashing the program
+- Program loops until you choose Exit
+
+---
+
+More stages coming: object-oriented programming, then real file storage with Pandas, then live recipe suggestions from an API.
