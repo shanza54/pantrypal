@@ -14,7 +14,7 @@ The first stage is about representing pantry data correctly using Python's core 
 
 **Run it:**
 ```
-python3 pantry.py
+python3 pantry_stage1.py
 ```
 
 **What it does:**
